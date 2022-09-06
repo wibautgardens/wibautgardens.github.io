@@ -240,7 +240,7 @@ ul li { padding-bottom: .6em}
 .slider {
     width: 100%;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 10px;
     position: relative;
     scroll-padding-top: 20em;
 
