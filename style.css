@@ -238,7 +238,7 @@ ul li { padding-bottom: .6em}
 
 .slider {
 	display: flex;
-	aspect-ratio: 16 / 9;
+	aspect-ratio: 4 / 3;
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
 	scroll-behavior: smooth;
@@ -247,9 +247,10 @@ ul li { padding-bottom: .6em}
 }
 
 .slider img {
-	flex: 1 0 100%;
+	/*flex: 1 0 100%;*/
 	scroll-snap-align: start;
 	object-fit: cover;
+  max-width: 100%;
 }
 
 .slider-nav {
